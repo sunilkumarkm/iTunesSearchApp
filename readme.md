@@ -4,8 +4,8 @@ An example project incorporating the iTunes Search API for android/ios react nat
 
 ## Preview
 
-![Dashboard](https://github.com/sunilkumarkm/iTunesSearchApp/app/assets/Dashboard.png?raw=true)
-![Item Details](https://github.com/sunilkumarkm/iTunesSearchApp/app/assets/Details.png?raw=true)
+![Dashboard](https://github.com/sunilkumarkm/iTunesSearchApp/blob/master/app/assets/Dashboard.png?raw=true)
+![Item Details](https://github.com/sunilkumarkm/iTunesSearchApp/blob/master/app/assets/Details.png?raw=true)
 
 ## Setup
 
