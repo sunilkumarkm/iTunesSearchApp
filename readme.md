@@ -16,7 +16,7 @@ Ensure that you have setting up the development environment [Environment Setup](
 Once this is complete, clone the repo and install the dependencies.
 
 ```
-git clone
+git clone https://github.com/sunilkumarkm/iTunesSearchApp.git
 
 yarn install
 ```
