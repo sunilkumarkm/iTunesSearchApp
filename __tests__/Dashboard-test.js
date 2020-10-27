@@ -1,8 +1,20 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
-import DasboardScreen from '../app/components/Dashboard/DasboardScreen';
+import {render, cleanup} from './utils/test-utils';
+import DashboardScreen from "../app/components/Dashboard/DasboardScreen";
 
-test('DasboardScreen renders correctly', () => {
-  const tree = renderer.create(<DasboardScreen />).toJSON();
-  expect(tree).toMatchSnapshot();
-});
+afterEach(() => {
+    cleanup();
+  });
+  
+const initialState = {
+    dashboard:{
+        loading: false,
+        itemList:[]
+    }
+  };
+  
+  describe('Testing Dashboard Screen', () => {
+    it('renders as expected', () => {
+        const rendered = render(<DashboardScreen/>, {initialState});
+    });
+  });
