@@ -3,6 +3,14 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
+project 'iTunesApp',
+        'Dev.Debug' => :debug,
+        'Dev.Release' => :release,
+        'Qa.Debug' => :debug,
+        'Qa.Release' => :release,
+        'Prod.Debug' => :debug,
+        'Prod.Release' => :release
+
 target 'iTunesApp' do
   config = use_native_modules!
 

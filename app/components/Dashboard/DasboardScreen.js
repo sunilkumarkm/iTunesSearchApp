@@ -25,10 +25,7 @@ class DashboardScreen extends React.PureComponent {
         this.props.navigation.navigate(APP_ROUTE.ITEM_DETAILS, {item})
       }>
       <Image
-        source={{
-          uri: item.artworkUrl60,
-          cache: 'only-if-cached',
-        }}
+        source={{uri: item.artworkUrl60}}
         style={styles.image}
         resizeMode="cover"
       />
